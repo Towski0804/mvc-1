@@ -1,0 +1,30 @@
+#app4 {
+}
+
+#app4 .circle {
+  margin-top: 10vh;
+  margin-left: 10vh;
+  background: orange;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  transition: background-color 1s;
+}
+
+#app4 .circle.active {
+  animation: changeColor ease-in-out 1s infinite alternate-reverse;
+}
+
+@keyframes changeColor {
+  0% {
+    background: orange;
+  }
+
+  50% {
+    background: green;
+  }
+
+  100% {
+    background: black;
+  }
+}

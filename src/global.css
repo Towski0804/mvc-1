@@ -1,0 +1,15 @@
+/*temporary action*/
+body {
+  overflow: hidden;
+}
+
+body > .page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body > .page > section {
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid grey;
+}
